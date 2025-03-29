@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image: url(pexels-joshsorenson-1714208.jpg);
+    background-repeat: no-repeat;
+    background-clip: inherit;
+}
+div h1{
+    background-color: transparent  ;
+    color:rgb(0, 255, 255);
+}
+div h1::selection{
+    background-color:transparent;
+   color: black;
+}
+h3{
+color: white
+}
+
+span{
+ color: rgb(0, 0, 0);
+}
+span::selection{
+    color: rgb(0, 255, 255);
+}
+
+.register{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 900;
+    color: rgb(4, 7, 8);
+}
+.register:hover{
+color: rgb(0, 255, 255);
+animation-duration: 2s;
+transition: 0.5s ease-in-out;
+
+}
+
+div a{
+    text-decoration: none; 
+     font-size: x-large;
+     align-items: center;
+     align-self: center;
+     color: rgb(0, 255, 255);
+}
+.div{
+    font-weight: 1000 ;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 300px;
+    left: 300px;
+
+}
+.span1{
+    color: rgb(0, 255, 255);
+}
+@media (max-width: 600px) {
+    div h1{
+        background-color: transparent  ;
+        color:rgb(0, 255, 255);
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .ruler{
+        margin-left: 10px;
+      
+        border: 2px solid rgba(255, 255, 255, 0.651);
+       padding: -1px;
+        width: 596px;
+        overflow: hidden;
+    }
+    * {
+       overflow: hidden;
+    }
+    .div{
+     border: 2px solid rgba(255, 255, 255, 0.651);
+     border-radius: 10px;
+     padding-bottom: 100px;
+     background-color: #0ac8d62c;
+     background-blend-mode: multiply;
+     box-shadow: 9px 9px 9px #02494ef8 ;
+     margin-left: 0px;
+     margin-top: 90px;
+     padding-top: 100px;
+     position: sticky;
+    font-weight: 100;
+font-size: larger;
+    }
+ 
+}
+@media all and (min-width: 601px){
+    div h1{
+        background-color: transparent  ;
+        color:rgb(0, 255, 255);
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .ruler{
+        margin-left: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.651);
+       padding: -1px;
+        width: 700px;
+        overflow: hidden;
+    }
+    * {
+       overflow: hidden;
+    }
+    .div{
+     border: 2px solid rgba(255, 255, 255, 0.651);
+     border-radius: 10px;
+     padding-bottom: 100px;
+     background-color: #0ac8d62c;
+     background-blend-mode: multiply;
+     box-shadow: 9px 9px 9px #02494ef8 ;
+     margin-left: 100px;
+     width: 500px;
+     left: -100px;
+     margin-top: 90px;
+     padding-top: 100px;
+     position: sticky;
+    font-weight: 100;
+font-size: larger;
+    }
+ 
+}
+@media all and (min-width: 778px){
+    div h1{
+        background-color: transparent  ;
+        color:rgb(0, 255, 255);
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .ruler{
+        margin-left: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.651);
+       padding: -1px;
+        width: 900px;
+        overflow: hidden;
+    }
+    * {
+       overflow: hidden;
+    }
+    .div{
+     border: 2px solid rgba(255, 255, 255, 0.651);
+     border-radius: 10px;
+     padding-bottom: 100px;
+     background-color: #0ac8d62c;
+     background-blend-mode: multiply;
+     box-shadow: 9px 9px 9px #02494ef8 ;
+     margin-left: 160px;
+     width: 500px;
+     left: -100px;
+     margin-top: 90px;
+     padding-top: 100px;
+     position: sticky;
+    font-weight: 100;
+font-size: larger;
+    }
+}
+@media all and (min-width: 946px){
+    div h1{
+        background-color: transparent  ;
+        color:rgb(0, 255, 255);
+        margin-left: 210px;
+        margin-right: 100px;
+    }
+    .ruler{
+        margin-left: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.651);
+       padding: -1px;
+        width: 1000px;
+        overflow: hidden;
+    }
+    * {
+       overflow: hidden;
+    }
+    .div{
+     border: 2px solid rgba(255, 255, 255, 0.651);
+     border-radius: 10px;
+     padding-bottom: 100px;
+     background-color: #0ac8d62c;
+     background-blend-mode: multiply;
+     box-shadow: 9px 9px 9px #02494ef8 ;
+     margin-left: 250px;
+     width: 500px;
+     height: auto;
+     left: -100px;
+     margin-top: 90px;
+     padding-top: 100px;
+     position: sticky;
+    font-weight: 100;
+font-size: larger;
+    }
+}
+@media all and (min-width: 1000px){
+    div h1{
+        background-color: transparent  ;
+        color:rgb(0, 255, 255);
+        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        margin-right: 100px;
+    }
+    .ruler{
+        margin-left: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.651);
+       padding: -1px;
+        width: 1100px;
+        overflow: hidden;
+    }
+    * {
+       overflow: hidden;
+    }
+    .div{
+     border: 2px solid rgba(255, 255, 255, 0.651);
+     border-radius: 10px;
+     padding-bottom: 100px;
+     background-color: #0ac8d62c;
+     background-blend-mode: multiply;
+     box-shadow: 9px 9px 9px #02494ef8 ;
+     margin-left: 110px;
+     width: 800px;
+     left: -100px;
+     margin-top: 90px;
+     padding-top: 100px;
+     position: sticky;
+    font-weight: 100;
+font-size: larger;
+    }
+}
+@media all and (min-width: 1090px){
+    div h1{
+        background-color: transparent  ;
+        color:rgb(0, 255, 255);
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        margin-right: 100px;
+    }
+    .ruler{
+        margin-left: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.651);
+       padding: -1px;
+        width: 1200px;
+        overflow: hidden;
+    }
+    * {
+       overflow: hidden;
+    }
+    .div{
+     border: 2px solid rgba(255, 255, 255, 0.651);
+     border-radius: 10px;
+     padding-bottom: 100px;
+     background-color: #0ac8d62c;
+     background-blend-mode: multiply;
+     box-shadow: 9px 9px 9px #02494ef8 ;
+     margin-left: 220px;
+     width: 700px;
+     left: -100px;
+     margin-top: 90px;
+     padding-top: 100px;
+     position: sticky;
+    font-weight: 500;
+font-size: larger;
+    }
+}
+@media all and (min-width: 1268px){
+    div h1{
+        background-color: transparent  ;
+        color:rgb(0, 255, 255);
+        margin-left: 100px;
+        display: flex;
+        justify-content: center;
+        margin-right: 100px;
+    }
+    .ruler{
+        margin-left: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.651);
+       padding: -1px;
+        width: 1200px;
+        overflow: hidden;
+    }
+    * {
+       overflow: hidden;
+    }
+    .div{
+     border: 2px solid rgba(255, 255, 255, 0.651);
+     border-radius: 10px;
+     padding-bottom: 100px;
+     background-color: #0ac8d62c;
+     background-blend-mode: multiply;
+     box-shadow: 9px 9px 9px #02494ef8 ;
+     margin-left: 290px;
+     width: 700px;
+     left: -100px;
+     margin-top: 90px;
+     padding-top: 100px;
+     position: sticky;
+    font-weight: 500;
+font-size: larger;
+    }
+}
